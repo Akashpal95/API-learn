@@ -1,0 +1,39 @@
+.menu{
+    display:flex;
+    padding: 50px 20px;
+    justify-content:space-around;
+    align-items: center;
+    background:linear-gradient(to right, rgb(110, 206, 206), lightyellow);
+}
+.img-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img{
+    margin:30px 20px;
+    width:300px;
+    box-shadow: 0px 0px 4px 2px lightgray;
+}
+button{
+    font-size:12px;
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border:2px solid white;
+    border-radius: 5px;
+
+}
+button:hover{
+    color:azure;
+    border:2px solid aqua;
+}
+.nav-menu{
+    margin:10px 0;
+    display:flex;
+    padding: 20px 20px;
+    justify-content:space-around;
+    background-color:rgb(110, 206, 206);
+}
